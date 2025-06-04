@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+
+  --font-dm-mono: var(--font-dm-mono);
+  --font-poppins: var(--font-poppins);
+}
+
+:root {
+  /* VARIABLES */
+  --background: #fcf5e5;
+  --primary: #212121;
+  --primary-hover: #212121cc;
+
+  --font-dm-mono: "DM Mono", monospace;
+  --font-poppins: "Poppins", sans-serif;
+
+  /* --- */
+  color: var(--primary);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: var(--font-poppins);
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--primary-hover);
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  font-weight: 500;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button--primary {
+  height: 52px;
+  color: var(--background);
+  background-color: var(--primary);
+  padding-inline: 32px;
+  border-radius: 8px;
+  font-family: var(--font-poppins);
+}
+.button--primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.button--secondary {
+  color: var(--primary-hover);
+  font-family: var(--font-poppins);
+}
+.button--secondary:hover {
+  color: var(--primary);
+}
