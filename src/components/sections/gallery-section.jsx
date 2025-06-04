@@ -7,7 +7,7 @@ export default function GallerySection() {
   return (
     <section className="grid gap-5 py-5 md:grid-cols-2 lg:grid-cols-3">
       {images.map((post) => (
-        <PostCard key={post} {...post} />
+        <PostCard key={post.src} {...post} />
       ))}
     </section>
   );

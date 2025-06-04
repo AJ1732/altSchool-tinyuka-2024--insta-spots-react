@@ -80,3 +80,15 @@ button:focus-visible {
 .button--secondary:hover {
   color: var(--primary);
 }
+
+label {
+  @apply block text-sm;
+}
+
+.input {
+  @apply w-full border-b p-2;
+}
+
+dialog {
+  @apply w-full max-w-xl;
+}
