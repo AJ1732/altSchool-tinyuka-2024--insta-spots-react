@@ -1,12 +1,80 @@
-# React + Vite
+# 📍 Spots App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist React application that showcases a user profile with a curated grid of beautiful locations. The app allows users to create new posts and interact with existing posts in a clean, modern interface.
 
-Currently, two official plugins are available:
+![Spots App Screenshot](public/project-view.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧑‍💻 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User profile section with avatar, name, and role.
+- Option to edit profile.
+- "New Post" button for adding new location cards.
+- Grid layout for displaying scenic locations.
+- Each card features:
+
+  - Image
+  - Title
+  - Like/Favorite button (❤️)
+
+- Responsive and visually clean layout using modern CSS practices.
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) — Frontend library
+- [Tailwind CSS](https://tailwindcss.com/) — Styling
+- [Vite](https://vitejs.dev/) — React boilerplate
+
+## 🧪 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/AJ1732/altSchool-tinyuka-2024--insta-spots-react.git
+
+# Navigate into the project
+cd altSchool-tinyuka-2024--insta-spots-react
+
+# Install dependencies
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+
+App will be live at `http://localhost:5173`.
+
+---
+
+## 🚀 Deployment
+
+You can deploy this app on platforms like:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 📸 UI Reference
+
+Design inspiration taken from the attached UI image:
+`Spots App 1440px.png`
+
+---
+
+## ✍️ Author
+
+- **Osezele Ejemen Iboi** — [@AJ1732](https://github.com/AJ1732)
