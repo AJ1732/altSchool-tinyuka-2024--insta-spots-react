@@ -86,11 +86,11 @@ export const EditProfileFormDialog = forwardRef(
               )}
 
               {previewUrl && !isUploading && (
-                <div className="relative aspect-square">
+                <div className="bg-primary relative aspect-square rounded-lg">
                   <img
                     src={previewUrl}
                     alt="Profile Preview"
-                    className="size-full rounded-lg border object-cover"
+                    className="size-full rounded-lg border object-contain object-center"
                   />
                   <div className="absolute -top-2 -right-2 rounded bg-green-500 px-2 py-1 text-xs text-white">
                     ✓

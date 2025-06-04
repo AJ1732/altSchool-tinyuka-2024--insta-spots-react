@@ -7,7 +7,7 @@ const ImagesContext = createContext();
 function imagesReducer(state, action) {
   switch (action.type) {
     case "ADD_POST":
-      return [...state, { ...action.payload, liked: false }];
+      return [{ ...action.payload, liked: false }, ...state];
     case "TOGGLE_LIKED":
       return state.map((img) =>
         img.src === action.payload ? { ...img, liked: !img.liked } : img,
