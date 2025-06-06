@@ -9,8 +9,11 @@ export default function PostCard({ src, title, liked }) {
 
   return (
     <>
-      <figure className="space-y-3" onClick={() => postModal.open()}>
-        <div className="bg-primary aspect-square w-full overflow-hidden rounded-lg">
+      <figure className="space-y-3">
+        <div
+          onClick={() => postModal.open()}
+          className="bg-primary aspect-square w-full overflow-hidden rounded-lg"
+        >
           <img src={src} alt={title} className="size-full object-cover" />
         </div>
 
